@@ -179,7 +179,7 @@ def click_OK():
 
 window = QWidget()
 window.setLayout(layout_card)
-window.setWindowTitle('Memo Card')
+window.setWindowTitle('Карточки для запоминания')
 
 
 btn_OK.clicked.connect(click_OK) # по нажатии на кнопку выбираем, что конкретно происходит
@@ -188,6 +188,6 @@ btn_OK.clicked.connect(click_OK) # по нажатии на кнопку выб�
 window.score = 0
 window.total = 0
 next_question()
-window.resize(400, 300)
+window.resize(500, 400)
 window.show()
 app.exec()
